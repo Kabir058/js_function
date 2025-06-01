@@ -9,4 +9,21 @@ function isEven(str)
 }
 let str= 'the quick';
 
-console.log(isEven(str))
+// console.log(isEven(str))
+
+
+function doubleOrTriple(number,doDouble){
+    if(doDouble===true)
+    {
+        let result= number *2;
+        return result;
+    }
+    else{
+        let result = number *3;
+        return result;
+    }
+}
+
+console.log(doubleOrTriple(4,false))
+console.log(doubleOrTriple(4,true))
+
