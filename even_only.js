@@ -59,4 +59,4 @@ function sumEven(numbers) {
 }
 
 const array = [12, 45, 64, 76, 89, 92, 54];
-console.log(sumEven(array)); // Output: 298
+console.log(sumEven(array)); 
